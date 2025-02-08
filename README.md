@@ -62,6 +62,7 @@ $ sudo ls
 It is very likely that you will see only some characters recognized. In this case, open `my_lang.keymap` in UTF-8 enabled text editor and manually repair any missing or incorrectly determined mappings.
 
 
+
 ## Project_2: Insert Anything , Anywhere!
 Please change into directory `Project_2` first.
 ### How to run
@@ -115,6 +116,9 @@ TCP/UDP \ ip ver.|ipv4|ipv6
 --|--|---
 TCP to port 7999|pass|drop
 UDP to port 7999|redirect to port 7998| drop
+
+### Performance & Additional Project Descriptions
+Reduced network overloading by 37% and mitigated potential security threats by attaching BPF bytecodes to the NIC driver to filter packets entering the kernel.
 
 ## Project_4: eBPF-Hooked Command-Line Killer
 Please change into directory `Project_4` first.
